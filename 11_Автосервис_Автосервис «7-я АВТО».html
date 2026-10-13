@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>КП для Автосервис «7-я АВТО» — первый экран сайта бесплатно | Павел Лосев</title><style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--ac:#84cc16;--aci:#111;--bg:#f4f4f1;--ink:#141414;--mu:#6b6b66}
+html{scroll-behavior:smooth}body{background:var(--bg);color:var(--ink);font:16px/1.55 'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}
+.w{max-width:1160px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;font-size:13px}nav b{font-size:15px;letter-spacing:.01em}
+.pill{display:inline-block;background:#141414;color:#fff;border-radius:99px;padding:11px 20px;text-decoration:none;font-weight:600;font-size:13px;transition:.2s}.pill:hover{background:var(--ac);color:var(--aci)}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:12px}.c{background:#fff;border-radius:28px;padding:32px}.c.ac{background:var(--ac);color:var(--aci)}
+.ava{display:inline-flex;align-items:center;gap:10px;font-size:12px;margin-bottom:60px}.ava i{width:38px;height:38px;border-radius:50%;background:#141414;color:var(--ac);display:grid;place-items:center;font-style:normal;font-weight:800}
+.hero h1{font-size:clamp(28px,4vw,46px);line-height:1.05;letter-spacing:-.035em;font-weight:700;margin-bottom:14px}.hero p{max-width:440px;opacity:.85;margin-bottom:22px}
+.mark{font-weight:900;font-size:clamp(46px,12vw,168px);letter-spacing:-.06em;line-height:.88;margin:34px 0 10px;overflow-wrap:anywhere}.mark span{color:var(--ac)}
+.big{font-size:clamp(40px,7vw,92px);font-weight:900;letter-spacing:-.05em;line-height:.95}
+.lab{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu);margin:90px 0 12px;display:flex;gap:14px;align-items:center}.lab:after{content:"";flex:1;height:1px;background:#d8d8d3}
+.sec-label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu);margin:90px 0 12px}
+h2{font-size:clamp(26px,4vw,44px);letter-spacing:-.03em;line-height:1.08;font-weight:700;max-width:760px}h2 em{font-style:normal;background:var(--ac);color:var(--aci);padding:0 .15em;border-radius:.2em}
+.sub{color:var(--mu);margin-top:12px;max-width:640px}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:26px}.g4{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:26px}
+.n{font-size:12px;color:var(--mu);margin-bottom:34px;display:block}.c b{display:block;font-size:17px;margin-bottom:6px}.c span.t{color:var(--mu);font-size:14px}.c.ac span.t{color:inherit;opacity:.8}
+.tw{overflow-x:auto;margin-top:20px;border-radius:20px}table{width:100%;border-collapse:collapse;background:#fff;font-size:14.5px}td,th{padding:14px 20px;text-align:left}td:last-child,th:last-child{text-align:right}th{font-size:12px;color:var(--mu);letter-spacing:.06em;text-transform:uppercase}tr+tr td{border-top:1px solid #eee}tr.total td{background:#fafaf7}.hi{color:#16a34a;font-weight:700}
+.faq{margin-top:16px;background:#fff;border-radius:20px;padding:20px 24px;font-size:14px;color:var(--mu);line-height:1.7}
+.why{background:#141414;color:#fff;border-radius:28px;padding:36px;font-size:clamp(18px,2.4vw,26px);line-height:1.35;letter-spacing:-.01em;margin-top:22px}
+.cta-final{margin-top:90px;background:var(--ac);color:var(--aci);border-radius:32px;padding:56px 32px;text-align:center}.cta-final .mark{margin-top:0}.cta-final .mark span{color:inherit;opacity:.45}.cta-final p{max-width:520px;margin:14px auto 26px;opacity:.85}.cta-final .pill{padding:16px 28px;font-size:15px}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;color:var(--mu);font-size:12.5px;padding:26px 0 40px}.foot a{color:inherit}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.ava{margin-bottom:30px}.c{padding:24px}}
+
+.br{background:#e9e9e6;border-radius:22px;overflow:hidden;margin-top:26px;box-shadow:0 30px 80px rgba(0,0,0,.18)}
+.bb{display:flex;gap:6px;padding:11px 16px;align-items:center}.bb i{width:11px;height:11px;border-radius:50%}.bb span{flex:1;background:#fff;border-radius:8px;padding:5px 12px;font-size:12px;color:#777;margin-left:10px}
+.ms{background:var(--bg);color:var(--ink);position:relative;overflow:hidden;font-size:14px}
+.mn{display:flex;justify-content:space-between;align-items:center;padding:16px 32px;font-size:12px}.mn b{font-size:17px}.mn span{opacity:.6}.mn u{text-decoration:none;font-weight:700}
+.mb{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;padding:26px 32px 20px;align-items:center}
+.ms small{opacity:.65;font-size:12px}.ms h3{font-size:clamp(28px,4.2vw,50px);line-height:1.05;letter-spacing:-.03em;margin:10px 0 12px}.ms p{opacity:.75;margin-bottom:10px}
+.ms ul{list-style:none;margin-bottom:16px}.ms li{padding:2px 0;font-size:13px}.ms li:before{content:"✓ ";color:var(--ac);font-weight:800}
+.cta{display:inline-block;background:var(--ac);color:var(--aci);padding:12px 20px;border-radius:99px;font-weight:700;font-size:13px;margin-right:8px}.gh{display:inline-block;padding:11px 18px;border:1px solid currentColor;border-radius:99px;font-size:13px;opacity:.7}
+.vis{position:relative;min-height:290px}.vis>*{position:absolute}
+.fc{background:#fff;color:#141414;border-radius:16px;padding:12px 15px;box-shadow:0 14px 40px rgba(0,0,0,.2);font-size:12px;max-width:190px}.fc b{display:block;font-size:19px}.fc small{color:#555}
+.f1{left:0;bottom:10px}.f2{right:0;top:6px;color:#f5a300}.f2 small{color:#444;display:block;line-height:1.35}.f2 b{display:inline;font-size:12px;color:#141414}
+.sv{display:flex;gap:10px;flex-wrap:wrap;padding:6px 32px 26px}.sv span{background:color-mix(in srgb,var(--ink) 8%,transparent);border-radius:99px;padding:9px 16px;display:flex;gap:10px;font-size:12.5px}.sv em{font-style:normal;opacity:.8}.sv b{color:var(--ac)}
+.a-edit h3{font-weight:400;font-style:italic}.a-edit .vis{min-height:320px}
+.a-bold{text-transform:uppercase}.a-bold h3{font-size:clamp(34px,6vw,76px);font-weight:900;line-height:.95}.a-bold .mb{grid-template-columns:1.25fr .75fr}.a-bold .sv,.a-bold li{text-transform:none}.a-bold .cta{border-radius:4px}.a-bold .fc{text-transform:none}
+.a-glam .mb{grid-template-columns:1fr 1fr}.a-glam h3{font-weight:300}.a-glam{background-image:radial-gradient(circle at 85% 20%,color-mix(in srgb,var(--ac) 30%,transparent),transparent 45%)}
+.a-fresh .mb{direction:rtl}.a-fresh .mb>*{direction:ltr}.a-fresh h3{font-weight:800}
+.a-dash{background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:34px 34px}.a-dash h3{font-weight:700}.a-dash .sv span{border:1px solid rgba(255,255,255,.14)}
+.a-gloss{background-image:radial-gradient(ellipse at 70% 30%,color-mix(in srgb,var(--ac) 38%,transparent),transparent 55%)}.a-gloss h3{font-weight:800}
+.m-arch{inset:0 12% 0 12%;border-radius:999px 999px 24px 24px;background:linear-gradient(160deg,var(--ac),color-mix(in srgb,var(--ac) 25%,#fff))}
+.m-lips{inset:10% 8%}.m-lips i{position:absolute;left:10%;right:10%;height:34%;border-radius:50%;background:var(--ac);opacity:.85}.m-lips i:first-child{top:18%;border-radius:60% 60% 50% 50%}.m-lips i:last-child{top:42%;height:38%;opacity:.6;border-radius:50% 50% 70% 70%}
+.m-pole{left:34%;width:32%;top:0;bottom:0;border-radius:99px;background:repeating-linear-gradient(-45deg,var(--ac) 0 22px,#fff 22px 44px,#2a6df4 44px 66px,#fff 66px 88px);box-shadow:inset 0 0 0 5px rgba(0,0,0,.4)}
+.m-sw{inset:8% 4%;display:flex;gap:8px;align-items:flex-end}.m-sw i{flex:1;border-radius:60px 60px 12px 12px;background:var(--ac)}.m-sw i:nth-child(1){height:60%;background:#f4c7b5}.m-sw i:nth-child(2){height:85%}.m-sw i:nth-child(3){height:70%;background:#8b2f3c}.m-sw i:nth-child(4){height:95%;background:#2b2b2b}.m-sw i:nth-child(5){height:55%;background:#e8e8e8}
+.m-drop{inset:6% 4%}.m-drop i{position:absolute;width:26%;height:56%;border-radius:50% 50% 45% 45%;background:var(--ac);top:20%}.m-drop i:nth-child(1){left:2%;transform:rotate(-12deg);opacity:.55}.m-drop i:nth-child(2){left:26%;top:6%;height:62%}.m-drop i:nth-child(3){left:50%;top:14%;opacity:.8;background:#fff}.m-drop i:nth-child(4){left:73%;transform:rotate(14deg);opacity:.5}
+.m-bub{inset:0}.m-bub i{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,color-mix(in srgb,var(--ac) 45%,transparent));border:1px solid var(--ac)}.m-bub i:nth-child(1){width:46%;aspect-ratio:1;left:10%;top:6%}.m-bub i:nth-child(2){width:28%;aspect-ratio:1;right:6%;top:30%}.m-bub i:nth-child(3){width:18%;aspect-ratio:1;left:40%;bottom:6%}
+.m-gauge{inset:4% 10%;border-radius:50%;background:conic-gradient(from 220deg,var(--ac) 0 62%,rgba(255,255,255,.1) 62% 75%,transparent 75%);-webkit-mask:radial-gradient(circle,transparent 55%,#000 56%);mask:radial-gradient(circle,transparent 55%,#000 56%)}.m-gauge b{display:none}
+.m-ring{inset:6%}.m-ring:before,.m-ring:after,.m-ring i{content:"";position:absolute;border-radius:50%;border:3px solid var(--ac)}.m-ring:before{inset:0}.m-ring:after{inset:18%;opacity:.6}.m-ring i{inset:36%;background:var(--ac)}
+.m-eq{inset:8% 4%;display:flex;gap:6px;align-items:flex-end}.m-eq i{flex:1;height:var(--h);border-radius:6px;background:linear-gradient(var(--ac),transparent)}
+.m-glass{inset:8% 4%;clip-path:polygon(8% 0,92% 0,100% 100%,0 100%);background:linear-gradient(135deg,color-mix(in srgb,var(--ac) 30%,#fff),#fff)}.m-glass i{position:absolute;left:55%;top:0;bottom:0;width:3px;background:#555;transform:skewX(-20deg);box-shadow:20px 40px 0 #555,-14px 90px 0 #555}
+.m-flame{left:22%;right:22%;top:2%;bottom:6%;background:radial-gradient(circle at 50% 70%,#fff3a0,var(--ac) 55%,transparent 70%);border-radius:50% 0 50% 50%;transform:rotate(-45deg)}
+.m-str{inset:0;overflow:hidden}.m-str i{position:absolute;top:-10%;bottom:-10%;width:16%;background:var(--ac);transform:skewX(-20deg)}.m-str i:nth-child(1){left:20%}.m-str i:nth-child(2){left:42%;opacity:.55}.m-str i:nth-child(3){left:64%;width:6%}
+.m-dent{inset:6% 2%}.m-dent i{position:absolute;top:0;bottom:0;width:48%;border-radius:18px}.m-dent i:first-child{left:0;background:linear-gradient(135deg,#555,#999 40%,#444 60%,#888)}.m-dent i:last-child{right:0;background:linear-gradient(135deg,var(--ac),#fff 45%,var(--ac))}
+.m-shine{inset:4% 8%;border-radius:50%;background:conic-gradient(from 30deg,#111,var(--ac),#fff,#222,var(--ac),#111)}
+@media(max-width:700px){.mb{grid-template-columns:1fr!important;padding:20px}.mn span{display:none}.vis{min-height:230px}.mn,.sv{padding-left:20px;padding-right:20px}}
+/* ===== price reveal ===== */
+body{padding-bottom:84px}
+.pbar{position:fixed;left:50%;bottom:16px;transform:translate(-50%,160%);z-index:60;display:flex;align-items:center;gap:12px;padding:10px 20px;border-radius:99px;background:rgba(10,12,17,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.14);box-shadow:0 10px 40px rgba(0,0,0,.55);font-size:13.5px;white-space:nowrap;transition:transform .6s cubic-bezier(.2,.8,.2,1),border-color .5s,box-shadow .5s}
+.pbar.show{transform:translate(-50%,0)}
+.pbar .pb-l{color:#98a1b3}
+.pbar .pb-v{font-weight:800;font-size:16px;font-variant-numeric:tabular-nums;color:#fff;transition:color .4s}
+.pbar s{display:none;color:#6b7280;font-size:12.5px;text-decoration-color:#f87171}
+.pbar.done{border-color:#4ade8088;box-shadow:0 10px 40px rgba(0,0,0,.55),0 0 34px #4ade8040}
+.pbar.done .pb-v{color:#4ade80}
+.pbar.done s{display:inline}
+.pbar.pop{animation:pbpop .7s cubic-bezier(.2,.8,.2,1)}
+@keyframes pbpop{0%{transform:translate(-50%,0) scale(1)}35%{transform:translate(-50%,0) scale(1.12)}100%{transform:translate(-50%,0) scale(1)}}
+.reveal{position:relative;overflow:hidden;margin-top:34px;border-radius:26px;padding:62px 22px 44px;text-align:center;border:1px solid rgba(255,255,255,.1);background:radial-gradient(ellipse at 50% -10%,#fbbf242e,transparent 62%),linear-gradient(180deg,#06070b,#0c0e14)}
+.reveal:before{content:"";position:absolute;left:50%;top:-30%;width:70%;height:90%;transform:translateX(-50%);background:radial-gradient(ellipse at 50% 0,rgba(255,255,255,.09),transparent 65%);pointer-events:none}
+.rv-kick{position:relative;min-height:3.4em;display:flex;align-items:center;justify-content:center;color:#98a1b3;font-size:clamp(14px,2vw,17px);letter-spacing:.02em;max-width:560px;margin:0 auto 6px;transition:opacity .35s}
+.rv-kick.out{opacity:0}
+.rv-old{position:relative;display:inline-block;font-weight:800;font-size:clamp(52px,12vw,128px);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:#fff;transition:font-size .9s cubic-bezier(.2,.8,.2,1),opacity .9s,color .9s}
+.rv-old .st{position:absolute;left:-4%;top:54%;height:.085em;width:0;background:#f87171;border-radius:9px;transform:rotate(-4deg);transform-origin:left center;box-shadow:0 0 22px #f87171aa}
+.rv-old.strike .st{width:108%;transition:width .5s cubic-bezier(.7,0,.3,1)}
+.rv-old.shrunk{font-size:clamp(24px,4.2vw,44px);opacity:.5;color:#9aa3b5}
+.reveal.shake .rv-old{animation:rvshake .45s}
+@keyframes rvshake{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}40%{transform:translateX(7px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
+.rv-nw{display:grid;grid-template-rows:0fr;transition:grid-template-rows .9s cubic-bezier(.2,.8,.2,1)}
+.rv-nw>div{overflow:hidden;min-height:0}
+.rv-nw.open{grid-template-rows:1fr}
+.rv-new{padding:.06em .04em .02em;font-size:clamp(50px,12vw,128px);font-weight:800;line-height:1.05;letter-spacing:-.03em;font-variant-numeric:tabular-nums;background:linear-gradient(90deg,#4ade80,#a7f3d0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.rv-new small{font-size:.34em;letter-spacing:0;margin-right:.18em;font-weight:700}
+.rv-new.boom{animation:rvboom .8s cubic-bezier(.2,.8,.2,1)}
+@keyframes rvboom{0%{transform:scale(.92)}45%{transform:scale(1.07)}100%{transform:scale(1)}}
+.rv-flash{position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(circle at 50% 50%,#4ade8066,transparent 60%)}
+.rv-flash.go{animation:rvflash 1s ease-out}
+@keyframes rvflash{0%{opacity:0}20%{opacity:1}100%{opacity:0}}
+.rv-sub{position:relative;opacity:0;transform:translateY(12px);transition:opacity .7s .1s,transform .7s .1s;margin-top:6px}
+.rv-sub.in{opacity:1;transform:none}
+.rv-sub p{color:#aab3c5;font-size:clamp(14px,2vw,17px);max-width:520px;margin:0 auto}
+.rv-chip{display:inline-block;margin-top:18px;padding:9px 20px;border-radius:99px;background:#4ade8022;border:1px solid #4ade8066;color:#4ade80;font-weight:800;font-size:15px}
+.rv-replay{display:block;margin:20px auto 0;background:none;border:0;color:#6b7280;font-size:12.5px;cursor:pointer;opacity:0;transition:opacity .6s;font-family:inherit}
+.rv-replay.in{opacity:1}.rv-replay:hover{color:#aab3c5}
+.tw td.dim{color:#98a1b3}
+#pricing .tw table{min-width:0}#pricing td:last-child,#pricing th:last-child{white-space:nowrap}
+@media(max-width:560px){.pbar{gap:8px;padding:9px 14px;font-size:12px}.pbar .pb-v{font-size:14.5px}.reveal{padding:48px 14px 36px}}
+@media(prefers-reduced-motion:reduce){.rv-old,.rv-nw,.rv-sub,.pbar{transition:none}}
+</style></head><body><div class="w">
+<nav><b>ПАВЕЛ ЛОСЕВ® · сайты, которые окупаются</b><a class="pill" href="https://t.me/pavellosev_of">Обсудить в Telegram</a></nav>
+<div class="hero"><div class="c ac"><div class="ava"><i>ПЛ</i>КП №11 · Автосервис · Зеленоград</div><h1>Первый экран вашего сайта уже готов. Бесплатно.</h1><p>Павел Лосев, веб-разработчик из вашего города. Посмотрел Автосервис «7-я АВТО» на картах и сделал не обычное КП, а готовый экран будущего сайта — плюс расчёт того, сколько клиентов вы теряете без него.</p><a class="pill" href="#first">Смотреть первый экран ↓</a></div>
+<div class="c"><small style="color:var(--mu)">Потенциал сайта для Автосервис «7-я АВТО»</small><div class="big" style="margin-top:60px">+88 935 ₽</div><p class="sub">дополнительной выручки в месяц — по медианным данным ниши</p></div></div>
+<div class="mark">7-я АВТО<span>/</span></div>
+<div class="lab" id="first">01 · Первый экран</div><h2>Так выглядит <em>ваш</em> сайт в первые 3 секунды</h2><p class="sub">Собран под нишу, оффер и клиентов Автосервис «7-я АВТО»: УТП, цены, соцдоказательство, заявка в один клик. Это не шаблон.</p>
+<div class="br"><div class="bb"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span>https://автосервис7-яавто.ru — ваш будущий сайт</span></div>
+<div class="ms a-dash" style="--bg:#11140f;--ink:#eef3e6;--ac:#84cc16;--aci:#111;font-family:Helvetica,Arial">
+<div class="mn"><b>Автосервис «7-я АВТО»</b><span>Услуги · Цены · Отзывы · Контакты</span><u>+7 (999) 000-00-00</u></div>
+<div class="mb"><div class="l"><small>Андреевка, Староандреевская, напротив 7</small><h3>Ремонт без «приезжайте через неделю»</h3><p>Ремонт ходовой • Кондиционеры • Кузовной ремонт • ТО</p><ul><li>Ремонт ходовой, кондиционеры, кузовной — всё в одном месте</li><li>Полное ТО по регламенту производителя</li><li>Свои запчасти и разбор</li></ul><div><a class="cta">Записаться в сервис →</a><a class="gh">Цены</a></div></div>
+<div class="vis"><div class="m-ring"><i></i></div><div class="fc f1"><small>Диагностика</small><b>от 800 ₽</b></div><div class="fc f2">★★★★★<br><small>«Сделали то, что два сервиса не смогли найти» — <b>Сергей, Андреевка</b></small></div></div></div>
+<div class="sv"><span><em>Диагностика</em><b>от 800 ₽</b></span><span><em>Ремонт ходовой</em><b>от 4 000 ₽</b></span><span><em>Заправка кондиционера</em><b>от 2 000 ₽</b></span></div></div></div>
+<div class="lab">02 · Цифры</div><h2>Сколько вы <em>недополучаете</em> без сайта</h2>
+<div class="g3"><div class="c"><span class="n">01</span><div class="big" style="font-size:clamp(30px,4vw,48px)">+33%</div><span class="t">прирост захвата спроса с сайтом за 6–12 мес.</span></div><div class="c ac"><span class="n">02</span><div class="big" style="font-size:clamp(30px,4vw,48px)">+88 935 ₽</div><span class="t">дополнительная выручка в месяц</span></div><div class="c"><span class="n">03</span><div class="big" style="font-size:clamp(30px,4vw,48px)">+1 067 220 ₽</div><span class="t">дополнительная выручка в год</span></div></div>
+<div class="tw"><table><tr><th>Показатель</th><th>Оценка</th></tr><tr><td>Текущие обращения в месяц (карты + звонки)</td><td>70</td></tr><tr><td>Средний чек, ₽</td><td>5 500</td></tr><tr><td>Конверсия обращения в оплату</td><td>70%</td></tr><tr><td>Новые обращения в месяц</td><td>+23</td></tr></table></div><p class="sub" style="font-size:12.5px">Оценка по медианным данным ниши «Автосервис» для Зеленограда (~250 тыс. жителей, платёжеспособная ИТ-аудитория). Точный прогноз сделаю после брифинга — он бесплатно входит в первый этап.</p>
+<div class="lab">03 · Почему сейчас</div><h2>Почему это важно <em>именно сейчас</em></h2><div class="why">Полный цикл услуг, но узнать о нём можно только по телефону из справочника — соседи по промзоне с сайтами забирают весь поисковый спрос Андреевки.</div>
+<div class="lab">04 · Процесс</div><h2>От брифинга до запуска — <em>24 дня</em></h2><div class="g4"><div class="c"><span class="n">/01/ · 1–2 дня</span><b>Брифинг</b><span class="t">Собираю факты о бизнесе и контент для сайта.</span></div><div class="c"><span class="n">/02/ · 3 дня</span><b>Анализ ЦА и конкурентов</b><span class="t">Смотрю, что работает у соседей и чего хотят ваши клиенты.</span></div><div class="c"><span class="n">/03/ · до 10 дней</span><b>Прототип и дизайн</b><span class="t">Структура и дизайн, 2 круга правок. Видео-презентация этапа.</span></div><div class="c"><span class="n">/04/ · до 9 дней</span><b>Tilda, CRM, аналитика</b><span class="t">Домен, заявки в мессенджер/CRM, счётчики. Запуск.</span></div></div><p class="sub">Нужно быстрее — уложусь в 14 дней (+30% к стоимости).</p>
+<div class="lab">05 · Доверие</div><h2>С кем вы работаете — <em>и почему спокойно</em></h2><div class="g4"><div class="c"><span class="n">/01/</span><b>Павел Лосев, сайтолог</b><span class="t">3 года в профессии, 30+ запущенных проектов. Работаю на Tilda.</span></div><div class="c"><span class="n">/02/</span><b>Договор</b><span class="t">Этапы, сроки и цена фиксируются до старта.</span></div><div class="c"><span class="n">/03/</span><b>Поэтапная оплата</b><span class="t">Платите за этап только после того, как утвердили его. Не понравилось — остановимся.</span></div><div class="c"><span class="n">/04/</span><b>Видео-презентации</b><span class="t">Каждый этап показываю записанным видео с объяснением решений.</span></div></div>
+<div class="lab">06 · Стоимость</div><section id="pricing">
+
+<h2>Сколько это <em>стоит на самом деле</em></h2>
+<p class="sub">Вот всё, что входит в разработку сайта — по моему открытому калькулятору. Запомните эту сумму:</p>
+<div class="tw"><table>
+<tr><th>Этап (из калькулятора на моём сайте)</th><th style="text-align:right">Обычная цена</th></tr>
+<tr><td>Брифинг — основа контента сайта</td><td class="dim">3 000 ₽</td></tr>
+<tr><td>Анализ целевой аудитории + анализ конкурентов</td><td class="dim">5 000 ₽</td></tr>
+<tr><td>Прототип → дизайн → перенос на Tilda → настройка (домен, CRM, аналитика)</td><td class="dim">57 000 ₽</td></tr>
+<tr class="total"><td><b>Итого полный цикл</b></td><td><b style="color:#fff">65 000 ₽</b></td></tr>
+</table></div>
+<div class="reveal" id="rv" data-old="65000" data-new="30000">
+<div class="rv-flash" id="rvFlash"></div>
+<div class="rv-kick" id="rvKick">Дизайн, прототип, Tilda, CRM, аналитика — обычно всё это стоит</div>
+<div class="rv-old" id="rvOld">65 000 ₽<i class="st"></i></div>
+<div class="rv-nw" id="rvNw"><div><div class="rv-new" id="rvNew"><small>до</small>30 000 ₽</div></div></div>
+<div class="rv-sub" id="rvSub"><p>Те же этапы. Тот же результат. Только цена — другая.</p><span class="rv-chip">Вы экономите 35 000 ₽</span></div>
+<button class="rv-replay" id="rvRep" type="button">↺ показать ещё раз</button>
+</div>
+<div class="faq">⚖️ <b>Цена «до».</b> 30 000 ₽ — это максимум для вашей задачи, итог может стать ещё меньше: например, если вам не нужны анализ ЦА и конкурентов, уберём этот этап из сметы. Но честно: без них сайт будет собран на моих предположениях, а не на данных, и пообещать, что он сработает на 100% и на 100% поднимет продажи, я не смогу. Нужно быстрее — уложусь в 14 дней вместо 24, +30%.</div>
+<p class="sub" style="margin-top:14px">Ориентир по окупаемости: в среднем сайты моих клиентов возвращают вложения за <b>3 месяца</b>. По вашим цифрам из раздела 02 — потенциал <b>+88 935 ₽/мес</b>, то есть сайт может окупаться и быстрее.</p>
+</section>
+<div class="cta-final"><div class="mark">Начнём<span>?</span></div><p>Ответьте в Telegram: обсудим задачу 15 минут, уточню цену и расскажу кейсы по нише «Автосервис». Первый экран из этого КП — ваш в любом случае.</p><a class="pill" href="https://t.me/pavellosev_of" style="background:#141414;color:#fff">Написать @pavellosev_of</a></div>
+<div class="foot"><span>КП №11 для Автосервис «7-я АВТО» · Павел Лосев © 2026</span><span><a href="https://t.me/pavellosev_of">Telegram</a></span></div></div><div class="pbar" id="pbar"><span class="pb-l">Сайт под ключ</span><span class="pb-v"><span id="pbPre"></span><span id="pbNum">65 000</span> ₽</span><s id="pbWas"></s></div>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var st=$('rv'); if(!st) return;
+var OLD=+st.dataset.old, NEW=+st.dataset.new;
+var kick=$('rvKick'),old=$('rvOld'),nw=$('rvNw'),nwv=$('rvNew'),sub=$('rvSub'),flash=$('rvFlash'),rep=$('rvRep');
+var bar=$('pbar'),bNum=$('pbNum'),bPre=$('pbPre'),bWas=$('pbWas');
+var NB='\u00a0';
+function f(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,NB)}
+function sleep(ms){return new Promise(function(r){setTimeout(r,ms)})}
+var token=0, played=false;
+function say(t){kick.classList.add('out');return sleep(280).then(function(){kick.textContent=t;kick.classList.remove('out')})}
+function setNum(n){nwv.firstChild.nextSibling.nodeValue=f(n)+NB+'\u20bd';bNum.textContent=f(n)}
+function count(from,to,ms,my){
+  return new Promise(function(res){
+    var t0=null;
+    function step(ts){
+      if(my!==token) return res();
+      if(t0===null) t0=ts;
+      var p=Math.min(1,(ts-t0)/ms), e=1-Math.pow(1-p,3);
+      setNum(from+(to-from)*e);
+      if(p<1) requestAnimationFrame(step); else res();
+    }
+    requestAnimationFrame(step);
+  });
+}
+function reset(){
+  token++;
+  old.classList.remove('strike','shrunk'); st.classList.remove('shake');
+  nw.classList.remove('open'); sub.classList.remove('in'); rep.classList.remove('in');
+  bar.classList.remove('done'); bPre.textContent=''; bWas.textContent='';
+  kick.textContent='Дизайн, прототип, Tilda, CRM, аналитика — обычно всё это стоит';
+  setNum(OLD);
+}
+function finalState(){
+  token++;
+  old.classList.add('strike','shrunk'); nw.classList.add('open'); sub.classList.add('in'); rep.classList.add('in');
+  kick.textContent='А сейчас для вас — всё это за';
+  setNum(NEW); bar.classList.add('done'); bPre.textContent='до'+NB; bWas.textContent=f(OLD)+NB+'\u20bd';
+}
+async function play(){
+  var my=++token; played=true; reset(); token=my;
+  await sleep(2300); if(my!==token) return;
+  await say('Звучит нормально. Но вы заплатите не это.'); await sleep(1500); if(my!==token) return;
+  old.classList.add('strike'); st.classList.add('shake'); await sleep(950); if(my!==token) return;
+  say('А сейчас для вас — всё это за');
+  old.classList.add('shrunk'); nw.classList.add('open'); await sleep(750); if(my!==token) return;
+  await count(OLD,NEW,1900,my); if(my!==token) return;
+  nwv.classList.remove('boom'); void nwv.offsetWidth; nwv.classList.add('boom');
+  flash.classList.remove('go'); void flash.offsetWidth; flash.classList.add('go');
+  bar.classList.add('done'); bPre.textContent='до'+NB; bWas.textContent=f(OLD)+NB+'\u20bd';
+  bar.classList.remove('pop'); void bar.offsetWidth; bar.classList.add('pop');
+  await sleep(500); if(my!==token) return;
+  sub.classList.add('in'); rep.classList.add('in');
+}
+rep.addEventListener('click',function(){played=true;play()});
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(reduce){finalState();played=true}
+if('IntersectionObserver' in window){
+  new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&!played){play()}})},{threshold:.65}).observe(st);
+  var cta=document.querySelector('.cta-final');
+  if(cta) new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&!played){played=true;finalState()}})},{threshold:.1}).observe(cta);
+}else{finalState();played=true}
+function onScroll(){bar.classList.toggle('show',(window.scrollY||document.documentElement.scrollTop)>520)}
+window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+})();
+</script>
+</body></html>
